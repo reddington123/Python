@@ -19,11 +19,11 @@ Steps included for Twitter Sentiment Analyzer
 
 
 
-consumer_key='JRWErlhG5peTUaioKn7Qgc3Zu';
-consumer_secret='zu5aAi1b9ua1tKkxrzADcLj53veUA1ux5EODfYmfqH2184AmHN';
+consumer_key='CONSUMER_KEY_HERE';
+consumer_secret='CONSUMER_SECRET_HERE';
 
-access_token='2298729666-GGjY8c32b6WUGLyMrFfI3yd0xNcbe8y8CuFZhyY';
-access_token_secret='eSYxWK6lUgz6rMxCMLYUMoqC5EdjGydMYHBZXuIpZL3uR';
+access_token='ACCESS_TOKEN_HERE';
+access_token_secret='ACCESS_TOKEN_SECRET_HERE';
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret);
 auth.set_access_token(access_token,access_token_secret);
